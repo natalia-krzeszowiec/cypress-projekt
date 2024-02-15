@@ -1,0 +1,21 @@
+{
+  "name": "cypress-projekt",
+  "version": "1.0.0",
+  "description": "Automatyzacja testów w Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test:checkbox": "cypress run --spec cypress/e2e/check.cy.js",
+    "cy:ui": "cypress open"
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "testy"
+  ],
+  "author": "Natalia Krzeszowiec",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-dark": "^1.8.3"
+  }
+}
